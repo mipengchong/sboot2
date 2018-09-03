@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.silloy</groupId>
+    <artifactId>spring-boot-2</artifactId>
+    <version>1.0</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>demo</module>
+        <module>experiment</module>
+        <module>webflux</module>
+    </modules>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Edgware.SR3</spring-cloud.version>
+
+        <camel.common.version>0.0.3.0</camel.common.version>
+        <curator.version>2.8.0</curator.version>
+        <druid.version>1.0.26</druid.version>
+        <elastic.job.version>2.1.5</elastic.job.version>
+        <hikaricp.version>2.6.0</hikaricp.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+        <mysql.version>8.0.11</mysql.version>
+        <perf4j.version>0.9.16</perf4j.version>
+        <zjtools.version>0.0.2</zjtools.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>me.silloy</groupId>
+            <artifactId>zjtools</artifactId>
+            <version>${zjtools.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      connection-timeout: 30000
+      max-lifetime: 180000
+      maximum-pool-size: 40
+      idle-timeout: 60000
+      connection-test-query: SELECT 1
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://127.0.0.1:3306/wego_poc?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+    username: root
+    password: MySQL
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  ConnectTimeout: 60000
+  ReadTimeout: 50000
+
+
+druid:
+  filters:  stat
+  logType:  log4j2
+  stat:
+    logSlowSql: true
+    slowSqlMillis:  1
+  initialSize:  1
+  minIdle:  1
+  maxActive:  20
+  maxWait:  60000
+  timeBetweenEvictionRunsMillis:  60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery:  select 1
+  testWhileIdle:  true
+  testOnBorrow: false
+  testOnReturn: false
