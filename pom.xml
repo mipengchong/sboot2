@@ -13,7 +13,6 @@
     <modules>
         <module>demo</module>
         <module>experiment</module>
-        <module>webflux</module>
         <module>hikaricp-dynamic-dbsource</module>
     </modules>
 

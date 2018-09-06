@@ -1,6 +1,6 @@
-package com.zj.webflux.controller;
+package me.silloy.controller;
 
-import com.zj.webflux.model.Message;
+import me.silloy.model.Message;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

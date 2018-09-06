@@ -1,4 +1,4 @@
-package com.zj.webflux.model;
+package me.silloy.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
