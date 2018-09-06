@@ -14,6 +14,7 @@
         <module>demo</module>
         <module>experiment</module>
         <module>webflux</module>
+        <module>hikaricp-dynamic-dbsource</module>
     </modules>
 
 
@@ -30,16 +31,16 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Edgware.SR3</spring-cloud.version>
 
-        <camel.common.version>0.0.3.0</camel.common.version>
         <curator.version>2.8.0</curator.version>
         <druid.version>1.0.26</druid.version>
         <elastic.job.version>2.1.5</elastic.job.version>
-        <hikaricp.version>2.6.0</hikaricp.version>
+        <hikaricp.version>2.7.2</hikaricp.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <mysql.version>8.0.11</mysql.version>
         <perf4j.version>0.9.16</perf4j.version>
         <zjtools.version>0.0.2</zjtools.version>
+        <perf4j.version>0.9.16</perf4j.version>
     </properties>
 
     <dependencies>

@@ -1,0 +1,12 @@
+package me.silloy;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DbsourceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DbsourceApplication.class, args);
+    }
+}

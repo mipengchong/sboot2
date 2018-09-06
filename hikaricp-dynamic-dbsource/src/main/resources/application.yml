@@ -1,0 +1,28 @@
+server:
+  port: 8976
+
+
+spring:
+  application:
+    name: dynamic-dbsource
+
+
+hikari:
+  poc:
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/wego_poc?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+    username: root
+    password: MySQL
+    maximum-pool-size: 80
+    pool-name: poc
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1765000
+  reward:
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/wego_reward?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+    username: root
+    password: MySQL
+    maximum-pool-size: 80
+    pool-name: reward
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1765000
