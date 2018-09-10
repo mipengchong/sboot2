@@ -1,6 +1,5 @@
 package me.silloy.config;
 
-import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import me.silloy.annotation.DB;
 import org.aspectj.lang.JoinPoint;
@@ -12,7 +11,6 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
-import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.

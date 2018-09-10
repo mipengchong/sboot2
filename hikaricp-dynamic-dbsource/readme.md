@@ -1,1 +1,0 @@
-hickcp 动态数据库 参照 https://github.com/rhettpang/dynamic-datasource
