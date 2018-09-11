@@ -13,7 +13,6 @@
     <modules>
         <module>demo</module>
         <module>experiment</module>
-        <module>hikaricp-dynamic-dbsource</module>
     </modules>
 
 
@@ -36,10 +35,11 @@
         <hikaricp.version>2.7.2</hikaricp.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <mysql.version>8.0.11</mysql.version>
+        <!--<mysql.version>8.0.11</mysql.version>-->
         <perf4j.version>0.9.16</perf4j.version>
         <zjtools.version>0.0.2</zjtools.version>
         <perf4j.version>0.9.16</perf4j.version>
+        <mysql.version>5.1.46</mysql.version>
     </properties>
 
     <dependencies>
