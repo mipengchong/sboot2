@@ -1,0 +1,19 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: spring-template
+
+
+info:
+  build:
+    artifact: ${spring.application.name}
+    name: ${spring.application.name}
+  system:
+    version: 20180501
+
+mybatis:
+  mapper-locations: classpath*:com/zj/mapping/*.xml
+  type-handlers-package: com.zj.mapper.**
+  typeAliasesPackage: com.zj.**
