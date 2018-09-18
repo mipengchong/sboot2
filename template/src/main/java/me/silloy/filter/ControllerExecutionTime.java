@@ -40,17 +40,17 @@ public class ControllerExecutionTime {
         String className = sig.getDeclaringType().getName();
         String method = sig.getName();
 
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuffer buf = new StringBuffer();
         Object[] argsArray = joinPoint.getArgs();
         String[] parameterNamesArray = ((CodeSignature)joinPoint.getStaticPart().getSignature()).getParameterNames();
         for (int i = 0; i < argsArray.length; i++) {
-            stringBuffer.append(parameterNamesArray[i] + ":" + argsArray[i]);
+            buf.append(parameterNamesArray[i]).append(":").append(argsArray[i]);
             if(i < argsArray.length - 1) {
-                stringBuffer.append(",");
+                buf.append(",");
             }
         }
         if(argsArray.length > 0){
-            log.info("{} - begin, " + stringBuffer.toString(), method);
+            log.info("{} - begin, {}", method, buf.toString());
         }
 
         try {
