@@ -1,6 +1,10 @@
 package me.silloy.model;
 
 import lombok.Data;
+import org.springframework.boot.convert.DurationUnit;
+
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 
 /**
  * Created with IntelliJ IDEA.
@@ -30,4 +34,5 @@ public class City {
      * 描述
      */
     private String description;
+
 }
