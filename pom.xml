@@ -13,6 +13,7 @@
     <modules>
         <module>demo</module>
         <module>experiment</module>
+        <module>template</module>
     </modules>
 
 
