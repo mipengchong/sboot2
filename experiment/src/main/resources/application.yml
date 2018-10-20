@@ -17,3 +17,4 @@ mybatis:
   mapper-locations: classpath*:com/zj/mapping/*.xml
   type-handlers-package: com.zj.mapper.**
   typeAliasesPackage: com.zj.**
+
