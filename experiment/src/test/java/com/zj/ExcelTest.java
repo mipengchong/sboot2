@@ -65,8 +65,6 @@ public class ExcelTest {
             cityDB.setRealDeal(BigDecimal.valueOf(realDeal).setScale(2, RoundingMode.HALF_UP).doubleValue());
         });
 
-
-
         String[] columnNames = {"ID", "城市", "社区ID", "社区名称", "首次开团时间",
                 "目前社区业务负责人", "岗位", "入职时间", "开团日期", "成交额"};
         String[] methodNames = {"id", "cityName", "communityId", "communityName", "firstOpenTime",
