@@ -133,7 +133,7 @@ public class ExcelTest {
     }
 
 
-    private Object getCellValue(Cell cell, CellType cellType) {
+    public static Object getCellValue(Cell cell, CellType cellType) {
         switch (cellType) {
             case STRING:
                 return cell.getRichStringCellValue().getString().trim();
