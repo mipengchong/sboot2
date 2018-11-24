@@ -1,8 +1,8 @@
 package com.zj;
 
 import com.google.common.collect.Lists;
-import com.zj.excel.ExcelEntity;
-import com.zj.excel.ExcelExporter;
+import com.zj.web.excel.ExcelEntity;
+import com.zj.web.excel.ExcelExporter;
 import com.zj.zjtools.time.DateUtils;
 import lombok.Builder;
 import lombok.Data;

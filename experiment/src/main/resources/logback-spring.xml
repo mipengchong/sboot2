@@ -133,14 +133,14 @@
 
     <!--开发环境:打印控制台-->
     <springProfile name="local">
-        <logger name="com.zj.mapper" level="DEBUG"/>
+        <logger name="com.zj.web.mapper" level="DEBUG"/>
         <root level="info">
             <appender-ref ref="CONSOLE"/>
         </root>
     </springProfile>
 
 
-    <logger name="com.zj.mapper" additivity="false">
+    <logger name="com.zj.web.mapper" additivity="false">
         <level value="DEBUG"/>
         <appender-ref ref="sqlLogFile"/>
     </logger>
