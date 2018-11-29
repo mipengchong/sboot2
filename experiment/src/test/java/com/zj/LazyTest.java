@@ -5,6 +5,7 @@ import cyclops.control.Eval;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
@@ -25,7 +26,7 @@ public class LazyTest {
     }
 
     private String loadFromFile() throws IOException{
-        return Files.readAllLines(Path.of("")).toString();
+        return Files.readAllLines(Paths.get("/User")).toString();
     }
 
     public String getContents() {
