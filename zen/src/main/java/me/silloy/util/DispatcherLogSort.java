@@ -1,4 +1,4 @@
-package me.silloy.log;
+package me.silloy.util;
 
 
 import ch.qos.logback.classic.pattern.ClassicConverter;
