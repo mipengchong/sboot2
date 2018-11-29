@@ -11,9 +11,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
 
-/**
- * Created by zsw on 2018/8/31.
- */
+
 public abstract class AbstractDataSource {
 
     protected DataSource dataSource(HikariDataSource source) {

@@ -13,9 +13,7 @@ import org.springframework.context.annotation.Primary;
 
 import javax.sql.DataSource;
 
-/**
- * Created by zsw on 2018/7/16.
- */
+
 @Configuration
 @MapperScan(basePackages = "com.zj.shop.operation.mapper.goods", sqlSessionTemplateRef = Constant.DATASOURCE_GOODS + "SqlSessionTemplate")
 public class GoodsDBSource extends AbstractDataSource {

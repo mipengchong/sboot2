@@ -12,9 +12,6 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
-/**
- * Created by zsw on 2018/7/16.
- */
 @Configuration
 @MapperScan(basePackages = "com.zj.shop.operation.mapper.bi", sqlSessionTemplateRef = Constant.DATASOURCE_BI + "SqlSessionTemplate")
 public class BiDBSource extends AbstractDataSource {
