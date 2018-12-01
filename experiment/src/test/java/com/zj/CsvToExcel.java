@@ -23,7 +23,7 @@ public class CsvToExcel {
 
     @Test
     public void daily() throws Exception{
-        convertCsvToXlsx(basePath + "1126.csv", basePath + "1126.xlsx");
+        convertCsvToXlsx(basePath + "1201n.csv", basePath + "1201n.xlsx");
     }
 
 

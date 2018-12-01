@@ -1,4 +1,4 @@
-package com.zj.lintcode;
+package me.silloy.lintcode;
 
 /**
  * 题目：给出两个整数 aa 和 bb , 求他们的和。
@@ -29,7 +29,7 @@ package com.zj.lintcode;
  *     第2步：很明显，只有1＋1会向前产生进位1，相对于这一数位的进位值为10，而10＝(1&1)<<1。
  *     第3步：将第1步和第2步得到的结果相加，其实又是在重复上述2步，直到不再产生进位为止。
  */
-public class AplusB {
+public class P1_AplusB {
 
     /*
      * param a: The first integer

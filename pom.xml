@@ -13,8 +13,8 @@
     <modules>
         <module>demo</module>
         <module>experiment</module>
-        <module>template</module>
         <module>zen</module>
+        <module>lcode</module>
     </modules>
 
 
